@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { FileText, Clock, Edit, Trash2, Plus, Download, Upload, Target, LogOut, Home, User } from "lucide-react";
-import CreateResumeModal from "../components/CreateResumeModal.jsx";
+import CreateResumeModal from "../components/createResumeModal.jsx";
 import ImportResumeModal from "../components/ImportResumeModal.jsx";
 import { getUserResumes, createResume, deleteResume } from "../services/resumeService";
 import { buildResumeEditorData } from "../services/fileParserService";
